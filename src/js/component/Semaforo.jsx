@@ -1,4 +1,5 @@
 import AmarilloNormas from "./AmarilloNormas";
+import Regla from "./Regla";
 import RojoNormas from "./RojoNormas";
 import VerdeNormas from "./VerdeNormas";
 import React, { useState } from "react";
@@ -15,7 +16,7 @@ const Semaforo = () => {
     } else if (color === "Verde") {
       return <VerdeNormas />;
     } else {
-      return "";
+      return <Regla />;
     }
   };
 

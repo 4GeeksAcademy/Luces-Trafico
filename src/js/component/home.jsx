@@ -19,15 +19,6 @@ const Home = () => {
           </h1>
         </div>
       </div>
-      <div className="row text-center">
-        <h2
-          className={
-            semaforo.length > 0 ? "d-none" : "fw-bold alert alert-warning"
-          }
-        >
-          Toca el semaforo para interactuar con el
-        </h2>
-      </div>
       <div className="row">
         <Semaforo />
       </div>
